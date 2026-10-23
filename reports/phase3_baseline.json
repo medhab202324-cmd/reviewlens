@@ -1,0 +1,70 @@
+{
+  "model": "TF-IDF (1-2 grams) + Logistic Regression (class_weight=balanced)",
+  "best_C": 1,
+  "val_macro_f1": 0.719,
+  "test_macro_f1": 0.7134,
+  "test_accuracy": 0.8387,
+  "test_f1_per_class": {
+    "negative": 0.823,
+    "neutral": 0.3954,
+    "positive": 0.9219
+  },
+  "naive_majority_macro_f1": 0.264,
+  "ms_per_review": 0.0561,
+  "n_train": 100000,
+  "n_val": 10000,
+  "n_test": 20000,
+  "top_words": {
+    "negative": [
+      "not",
+      "disappointed",
+      "terrible",
+      "not good",
+      "horrible",
+      "waste",
+      "return",
+      "poor",
+      "not worth",
+      "awful",
+      "trash",
+      "worst",
+      "don",
+      "useless",
+      "even"
+    ],
+    "neutral": [
+      "but",
+      "okay",
+      "ok",
+      "however",
+      "not",
+      "so so",
+      "three stars",
+      "meh",
+      "unfortunately",
+      "not very",
+      "otherwise",
+      "not the",
+      "though",
+      "eh",
+      "alright"
+    ],
+    "positive": [
+      "great",
+      "love",
+      "perfect",
+      "amazing",
+      "best",
+      "awesome",
+      "love it",
+      "good",
+      "beautiful",
+      "excellent",
+      "not too",
+      "nice",
+      "works",
+      "soft",
+      "wonderful"
+    ]
+  }
+}

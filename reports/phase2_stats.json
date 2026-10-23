@@ -1,0 +1,7 @@
+{
+  "negative_median_words": 26.0,
+  "positive_median_words": 24.0,
+  "mannwhitney_p": 7.165576528611987e-122,
+  "verified_chi2_p": 2.6857569173178944e-231,
+  "verified_cramers_v": 0.040522652728306796
+}

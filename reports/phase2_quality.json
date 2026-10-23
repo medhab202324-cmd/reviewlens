@@ -1,0 +1,44 @@
+{
+  "cleaning_steps": [
+    {
+      "step": "0. Raw rows",
+      "rows": 701528
+    },
+    {
+      "step": "1. Removed exact duplicate rows",
+      "rows": 694253
+    },
+    {
+      "step": "2. Removed same user+product+text duplicates",
+      "rows": 694228
+    },
+    {
+      "step": "3. Removed duplicate review_ids",
+      "rows": 694228
+    },
+    {
+      "step": "4. Removed empty review text",
+      "rows": 693512
+    },
+    {
+      "step": "5. Removed very short reviews (<5 words)",
+      "rows": 646674
+    },
+    {
+      "step": "6. Removed extreme outliers (>1000 words)",
+      "rows": 646628
+    },
+    {
+      "step": "7. Kept valid ratings (1-5)",
+      "rows": 646628
+    }
+  ],
+  "checks": {
+    "full_text never empty": true,
+    "review_id is unique": true,
+    "ratings all within 1-5": true,
+    "all 3 sentiment classes exist": true,
+    "no leftover HTML (<br, &#34;)": true,
+    "min word_count >= 5": true
+  }
+}

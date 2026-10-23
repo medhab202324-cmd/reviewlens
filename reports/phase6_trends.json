@@ -1,0 +1,24 @@
+{
+  "n_tests": 997,
+  "significant_before_correction": 138,
+  "alerts_after_fdr_and_10pp": 16,
+  "products_with_alerts": 13,
+  "driver_aspect_counts": {
+    "quality_effectiveness": 14,
+    "scent": 1,
+    "price_value": 1
+  },
+  "category_trend_odds_ratio_per_year": 1.0642,
+  "category_trend_ci95": [
+    1.057,
+    1.0714
+  ],
+  "category_trend_p": 4.3777006682559536e-73,
+  "model_vs_rating_agreement_pct": 89.1,
+  "settings": {
+    "baseline_quarters": 2,
+    "min_current_reviews": 20,
+    "min_baseline_reviews": 40,
+    "min_uplift_pp": 10
+  }
+}

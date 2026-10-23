@@ -1,0 +1,11 @@
+.venv/
+.env
+data/
+models/
+__pycache__/
+.ipynb_checkpoints/
+app/data/
+*.zip
+*.npy
+*.faiss
+setup_check.ipynb

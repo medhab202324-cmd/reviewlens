@@ -1,0 +1,29 @@
+type,aspect,product,question,precision_at_5,hit_at_5,reciprocal_rank,random_baseline
+product,quality_effectiveness,B07K6VJFQH,Does it actually work? What do customers say about its results?,1.0,1,1.0,0.9224137931034483
+product,quality_effectiveness,B002GDKPUY,Does it actually work? What do customers say about its results?,1.0,1,1.0,0.9360730593607306
+product,quality_effectiveness,B083BDVS36,Does it actually work? What do customers say about its results?,1.0,1,1.0,0.912
+generic,quality_effectiveness,,"Product stopped working or did nothing, complete waste",0.8,1,0.5,0.16823645096015538
+product,price_value,B002A5OLHQ,"Is it worth the money, or do people think it's overpriced?",1.0,1,1.0,0.4523809523809524
+product,price_value,B07R4H7FPL,"Is it worth the money, or do people think it's overpriced?",1.0,1,1.0,0.2536231884057971
+product,price_value,B08QMJLMCQ,"Is it worth the money, or do people think it's overpriced?",1.0,1,1.0,0.27932960893854747
+generic,price_value,,"Way too expensive for what you get, not worth the price",0.6,1,1.0,0.04369661853022681
+product,scent,B01HIIT4TE,How does it smell? What do people say about the fragrance?,0.8,1,1.0,0.1301775147928994
+product,scent,B0BTJ6SYKB,How does it smell? What do people say about the fragrance?,1.0,1,1.0,0.7407407407407407
+product,scent,B07VBDQY2F,How does it smell? What do people say about the fragrance?,1.0,1,1.0,0.0872093023255814
+generic,scent,,"The smell is awful, strong chemical odor",1.0,1,1.0,0.0181710319943439
+product,packaging,B01N5CJPSX,"Are there problems with the bottle, container or packaging, like leaks?",0.8,1,1.0,0.0931899641577061
+product,packaging,B083H7G738,"Are there problems with the bottle, container or packaging, like leaks?",0.6,1,1.0,0.041025641025641026
+product,packaging,B00A967Q3O,"Are there problems with the bottle, container or packaging, like leaks?",0.2,1,0.25,0.03900709219858156
+generic,packaging,,"Bottle arrived leaking, broken pump, bad packaging",0.8,1,1.0,0.02227495469431871
+product,shipping_delivery,B01JD1DJZE,"Were there delivery problems, like late, damaged or wrong items?",0.6,1,1.0,0.06206896551724138
+product,shipping_delivery,B0145XI8RO,"Were there delivery problems, like late, damaged or wrong items?",0.8,1,1.0,0.050761421319796954
+product,shipping_delivery,B00C0YZBJE,"Were there delivery problems, like late, damaged or wrong items?",0.2,1,0.3333333333333333,0.05641025641025641
+generic,shipping_delivery,,Package arrived late and the item was damaged or wrong,0.8,1,0.5,0.021462296733927657
+product,ease_of_use,B08CKCV9HD,Is it easy to use and apply?,1.0,1,1.0,0.8187702265372169
+product,ease_of_use,B07H3BD7ZG,Is it easy to use and apply?,0.4,1,1.0,0.48466257668711654
+product,ease_of_use,B01C763HMW,Is it easy to use and apply?,1.0,1,1.0,0.6495726495726496
+generic,ease_of_use,,"Very hard to apply, messy and difficult to use",0.8,1,1.0,0.09631622146554737
+product,skin_hair_reaction,B0186AH6VG,"Did it cause irritation, rashes or allergic reactions?",0.6,1,1.0,0.2972972972972973
+product,skin_hair_reaction,B002GDKPUY,"Did it cause irritation, rashes or allergic reactions?",0.4,1,0.3333333333333333,0.1095890410958904
+product,skin_hair_reaction,B00K58HQRM,"Did it cause irritation, rashes or allergic reactions?",0.8,1,1.0,0.2
+generic,skin_hair_reaction,,"It gave me a rash, burning and an allergic reaction",1.0,1,1.0,0.012076097291411018

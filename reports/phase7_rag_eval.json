@@ -1,0 +1,28 @@
+{
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "n_vectors": 123053,
+  "dims": 384,
+  "answer_model": "gemini-3.5-flash-lite",
+  "judge_model_used": "gemini-3.5-flash-lite",
+  "retrieval": [
+    {
+      "type": "generic",
+      "precision_at_5": 0.829,
+      "hit_at_5": 1.0,
+      "reciprocal_rank": 0.857,
+      "random_baseline": 0.055
+    },
+    {
+      "type": "product",
+      "precision_at_5": 0.771,
+      "hit_at_5": 1.0,
+      "reciprocal_rank": 0.901,
+      "random_baseline": 0.363
+    }
+  ],
+  "faithfulness_mean": 1.0,
+  "n_answers_evaluated": 15,
+  "answers_with_citations_pct": 86.7,
+  "citations_valid_pct": 86.7,
+  "abstention_pass": "3/3"
+}

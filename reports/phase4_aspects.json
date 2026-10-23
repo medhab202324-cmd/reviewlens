@@ -1,0 +1,81 @@
+{
+  "labeling_model": "gemini-3.5-flash-lite",
+  "judge_model": "gemini-3.5-flash",
+  "n_labeled": 1900,
+  "n_failed": 0,
+  "prevalence_pct": {
+    "skin_hair_reaction": 6.8,
+    "shipping_delivery": 8.7,
+    "packaging": 11.1,
+    "scent": 12.7,
+    "price_value": 20.3,
+    "ease_of_use": 39.2,
+    "quality_effectiveness": 75.0
+  },
+  "keyword_check": [
+    {
+      "aspect": "scent",
+      "reviews_with_keyword": 212,
+      "pct_tagged_by_llm": 98.1
+    },
+    {
+      "aspect": "price_value",
+      "reviews_with_keyword": 312,
+      "pct_tagged_by_llm": 90.1
+    },
+    {
+      "aspect": "packaging",
+      "reviews_with_keyword": 94,
+      "pct_tagged_by_llm": 80.9
+    },
+    {
+      "aspect": "shipping_delivery",
+      "reviews_with_keyword": 84,
+      "pct_tagged_by_llm": 83.3
+    },
+    {
+      "aspect": "skin_hair_reaction",
+      "reviews_with_keyword": 59,
+      "pct_tagged_by_llm": 81.4
+    }
+  ],
+  "judge_agreement": [
+    {
+      "aspect": "quality_effectiveness",
+      "agreement_pct": 86.4,
+      "cohens_kappa": 0.706
+    },
+    {
+      "aspect": "price_value",
+      "agreement_pct": 97.1,
+      "cohens_kappa": 0.906
+    },
+    {
+      "aspect": "scent",
+      "agreement_pct": 100.0,
+      "cohens_kappa": 1.0
+    },
+    {
+      "aspect": "packaging",
+      "agreement_pct": 97.1,
+      "cohens_kappa": 0.888
+    },
+    {
+      "aspect": "shipping_delivery",
+      "agreement_pct": 97.1,
+      "cohens_kappa": 0.851
+    },
+    {
+      "aspect": "ease_of_use",
+      "agreement_pct": 89.3,
+      "cohens_kappa": 0.759
+    },
+    {
+      "aspect": "skin_hair_reaction",
+      "agreement_pct": 98.6,
+      "cohens_kappa": 0.868
+    }
+  ],
+  "mean_kappa": 0.854,
+  "exact_set_match_pct": 67.9
+}

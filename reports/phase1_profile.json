@@ -1,0 +1,134 @@
+{
+  "n_reviews": 701528,
+  "n_products_meta": 112590,
+  "unique_users": 631986,
+  "unique_products_reviewed": 112565,
+  "date_range": [
+    "2000-11-01",
+    "2023-09-09"
+  ],
+  "verified_share_pct": 90.51,
+  "exact_duplicates": 7275,
+  "logical_duplicates": 7300,
+  "short_reviews_under_5_words": 95721,
+  "product_match_rate_pct": 100.0,
+  "word_count_quantiles": {
+    "p5": 2.0,
+    "p25": 8.0,
+    "p50": 19.0,
+    "p75": 39.0,
+    "p95": 98.0,
+    "p99": 2585.0
+  },
+  "rating_distribution": [
+    {
+      "rating": 1.0,
+      "count": 102080,
+      "pct": 14.55
+    },
+    {
+      "rating": 2.0,
+      "count": 43034,
+      "pct": 6.13
+    },
+    {
+      "rating": 3.0,
+      "count": 56307,
+      "pct": 8.03
+    },
+    {
+      "rating": 4.0,
+      "count": 79381,
+      "pct": 11.32
+    },
+    {
+      "rating": 5.0,
+      "count": 420726,
+      "pct": 59.97
+    }
+  ],
+  "missing_reviews": [
+    {
+      "column": "rating",
+      "missing": 0,
+      "missing_pct": 0.0
+    },
+    {
+      "column": "title",
+      "missing": 0,
+      "missing_pct": 0.0
+    },
+    {
+      "column": "text",
+      "missing": 720,
+      "missing_pct": 0.1
+    },
+    {
+      "column": "asin",
+      "missing": 0,
+      "missing_pct": 0.0
+    },
+    {
+      "column": "parent_asin",
+      "missing": 0,
+      "missing_pct": 0.0
+    },
+    {
+      "column": "user_id",
+      "missing": 0,
+      "missing_pct": 0.0
+    },
+    {
+      "column": "timestamp",
+      "missing": 0,
+      "missing_pct": 0.0
+    },
+    {
+      "column": "helpful_vote",
+      "missing": 0,
+      "missing_pct": 0.0
+    },
+    {
+      "column": "verified_purchase",
+      "missing": 0,
+      "missing_pct": 0.0
+    }
+  ],
+  "missing_meta": [
+    {
+      "column": "parent_asin",
+      "missing": 0,
+      "missing_pct": 0.0
+    },
+    {
+      "column": "title",
+      "missing": 12,
+      "missing_pct": 0.01
+    },
+    {
+      "column": "main_category",
+      "missing": 0,
+      "missing_pct": 0.0
+    },
+    {
+      "column": "store",
+      "missing": 11331,
+      "missing_pct": 10.06
+    },
+    {
+      "column": "average_rating",
+      "missing": 0,
+      "missing_pct": 0.0
+    },
+    {
+      "column": "rating_number",
+      "missing": 0,
+      "missing_pct": 0.0
+    },
+    {
+      "column": "price",
+      "missing": 94886,
+      "missing_pct": 84.28
+    }
+  ]
+}
